@@ -20,7 +20,7 @@ class AddressBarVisibilityChange {
   resizeEvent () {
     // detect height change by comparing with previous height
     if (this.previousHeight !== window.innerHeight) {
-      const isFunction = func => func && Object.prototype.toString.call(func).toLocaleLowerCase().indexOf('function') > -1
+      const isFunction = func => func && Object.prototype.toString.call(func).toLowerCase().indexOf('function') > -1
 
       // check if it's undefined and is a function
       if (isFunction(this.callbackFunction)) this.callbackFunction()
