@@ -1,4 +1,4 @@
-# onAddressBarVisibilityChange
+# AddressBarVisibilityChange
 
 A plugin to detect when visibility of address bar from mobile's browser changes
 
