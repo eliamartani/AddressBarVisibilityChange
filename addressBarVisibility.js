@@ -1,3 +1,6 @@
+/*
+ * https://github.com/eliamartani/AddressBarVisibilityChange
+ */
 class AddressBarVisibilityChange {
   constructor (callbackFunction) {
     this.previousHeight = window.innerHeight
